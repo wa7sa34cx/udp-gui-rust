@@ -9,7 +9,12 @@ repository = "https://github.com/wa7sa34cx/udp-gui-rust"
 keywords = ["udp", "gui", "sqlite", "sqlx"]
 readme = "README.md"
 
-# See more keys and their definitions at
-# https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "udp_gui_rust"
 
 [dependencies]
+anyhow = "1.0"

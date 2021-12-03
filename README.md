@@ -1,3 +1,11 @@
-# UDP GUI Rust
+# UDP-GUI-Rust
 
-Fill me up!
+Testing UDP and GUI written in Rust
+
+## Usage
+
+...
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
